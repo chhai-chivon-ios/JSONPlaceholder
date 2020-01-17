@@ -15,6 +15,8 @@
 		1BB369A023D12155008189AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BB3699E23D12155008189AD /* LaunchScreen.storyboard */; };
 		1BB369AB23D12155008189AD /* JSONPlaceholderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BB369AA23D12155008189AD /* JSONPlaceholderTests.swift */; };
 		1BB369B623D12155008189AD /* JSONPlaceholderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BB369B523D12155008189AD /* JSONPlaceholderUITests.swift */; };
+		1BB369C423D12486008189AD /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BB369C323D12486008189AD /* Post.swift */; };
+		1BB369C623D13078008189AD /* PostDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BB369C523D13077008189AD /* PostDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		1BB369B123D12155008189AD /* JSONPlaceholderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JSONPlaceholderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BB369B523D12155008189AD /* JSONPlaceholderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONPlaceholderUITests.swift; sourceTree = "<group>"; };
 		1BB369B723D12155008189AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1BB369C323D12486008189AD /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		1BB369C523D13077008189AD /* PostDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,7 @@
 		1BB3699223D12154008189AD /* JSONPlaceholder */ = {
 			isa = PBXGroup;
 			children = (
+				1BB369C323D12486008189AD /* Post.swift */,
 				1BB3699323D12154008189AD /* AppDelegate.swift */,
 				1BB3699523D12154008189AD /* SceneDelegate.swift */,
 				1BB3699723D12154008189AD /* ViewController.swift */,
@@ -106,6 +111,7 @@
 				1BB3699C23D12155008189AD /* Assets.xcassets */,
 				1BB3699E23D12155008189AD /* LaunchScreen.storyboard */,
 				1BB369A123D12155008189AD /* Info.plist */,
+				1BB369C523D13077008189AD /* PostDetailViewController.swift */,
 			);
 			path = JSONPlaceholder;
 			sourceTree = "<group>";
@@ -261,7 +267,9 @@
 			files = (
 				1BB3699823D12154008189AD /* ViewController.swift in Sources */,
 				1BB3699423D12154008189AD /* AppDelegate.swift in Sources */,
+				1BB369C623D13078008189AD /* PostDetailViewController.swift in Sources */,
 				1BB3699623D12154008189AD /* SceneDelegate.swift in Sources */,
+				1BB369C423D12486008189AD /* Post.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
